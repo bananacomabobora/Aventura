@@ -1,1 +1,24 @@
+body{
+    background-color: rgb(60, 129, 112);
+    color: bisque;
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0%;
+}
 
+button{
+    background-color: rgb(89, 180, 157);
+    color: rgb(241, 226, 176);
+    font-family: "Kanit", sans-serif;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
